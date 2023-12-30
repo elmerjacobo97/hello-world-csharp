@@ -1,0 +1,23 @@
+# Ignorar directorios de compilación
+bin/
+obj/
+
+# Ignorar archivos de configuración de usuario de Visual Studio
+*.user
+*.suo
+
+# Ignorar la carpeta .vs que contiene archivos de configuración específicos de Visual Studio
+.vs/
+
+# Ignorar carpetas de paquetes NuGet si estás restaurando los paquetes NuGet durante la compilación
+packages/
+
+# Ignorar archivos de la base de datos de código de Visual Studio
+*.db
+
+# Ignorar archivos de caché de NuGet
+*.nupkg
+*.snupkg
+
+# Ignorar la caché de Visual Studio Code si se usa
+.vscode/
