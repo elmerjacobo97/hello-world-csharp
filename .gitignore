@@ -21,3 +21,4 @@ packages/
 
 # Ignorar la caché de Visual Studio Code si se usa
 .vscode/
+.idea/
