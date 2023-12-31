@@ -35,6 +35,7 @@ namespace CSharpPractices
       Operadores.PracticaOperadoresAsignacion();
       Operadores.PracticaOperadoresComparacion();
       Operadores.PracticaOperadoresLogicos();
+      Operadores.PracticaOperadoresLogicosReales();
 
       Console.WriteLine("--------------------------");
 
@@ -48,6 +49,8 @@ namespace CSharpPractices
       // Condicionales
       Condicionales.PracticaIf();
       Condicionales.PracticaSwitch();
+      Condicionales.VerificarMayorDeEdadYDNI();
+      Condicionales.VerificarPermisoDeConducir();
 
       Console.WriteLine("--------------------------");
 
