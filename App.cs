@@ -70,7 +70,30 @@ namespace CSharpPractices
       Console.WriteLine(saludoPersonalizado);
 
       Console.WriteLine("--------------------------");
+      
+      Bucles.PracticaFor();
+      Bucles.PracticaWhile();
+      Bucles.PracticaDoWhile();
+      Bucles.RecorrerColeccion();
+      // Bucles.EsperarUsuario();
+      
+      Console.WriteLine("--------------------------");
 
+      Excepciones.CapturaExcepcionDividePorCero();
+      Excepciones.CapturaMultiplesExcepciones();
+      // Excepciones.CapturaFormatException();
+      // Excepciones.CapturaNullReferenceException();
+      // Excepciones.CapturaExcepcionGenerica();
+      Excepciones.UsoDeFinally();
+      // Excepciones.CapturaExcepcionConFiltro();
+      // Excepciones.LanzarExcepcionConThrow();
+      
+      Console.WriteLine("--------------------------");
+
+      Desbordamiento.DemostracionChecked();
+      Desbordamiento.DemostracionUnchecked();
+      
+      Console.WriteLine("--------------------------");
     }
   }
 }
