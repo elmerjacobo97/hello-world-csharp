@@ -96,6 +96,10 @@ namespace CSharpPractices
       Console.WriteLine("--------------------------");
       
       POO.DemostrarClasesObjetosInstancias();
+      
+      Console.WriteLine("--------------------------");
+      
+      Arrays.DemostrarUsoDeArrays();
     }
   }
 }
